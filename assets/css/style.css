@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tangerine:wght@700&display=swap');
+
+
+@font-face {
+  font-family: 'Santio Bold';
+  src: url(../fonts/SANTIO/OTP/Santio\ Bold.otf);
+}
+
+
+/* 
+Font: Santio bold, Roboto, Tangerine
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff 
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+*/
+
+/* ------------------GENERAL FORMATTING--------------------- */
+*{
+  border:0;
+  margin:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/cleo-topper.jpg) no-repeat center/cover fixed;
+}
+
+#bild{
+  background: url(../img/see.png) no-repeat center/cover;
+  background-color:#efefef;
+}
+
+.imgBild{
+  width:100vw;
+  margin-bottom:-0.5rem;
+}
+
+h1,
+h2,
+p{
+  font-family:'Santio Bold';
+}
+
+.bigNumber{
+  font-size:15rem;
+}
+
+.turkis{
+  color:#6bc1a3;
+}
+
+.gelb{
+  color:#e7bc0e;
+}
+
+.rose{
+  color:#cb91b6;
+}
+
+.blau{
+  color:#7eb8e1;
+}  
+
+article p{
+  font-size: 4rem;
+}
+
+/* -------------------HEADER---------------------- */
+header article{
+  font-family: 'Roboto', sans-serif;
+  font-size:2rem;
+  font-weight:700;
+  text-align: right;
+  padding-right:5rem;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom:2px solid #e7bc0e;
+  letter-spacing:0.3rem;
+}
+
+header img{
+  width:5rem;
+  padding-right:1rem;
+  padding-top:1.5rem;
+}
+
+.article-intro{
+  margin-bottom:40rem;
+}
+
+.marginBottom{
+  margin-bottom: 20rem;
+}
+
+/* ----------------------MAIN----------------------- */
+#haupt{
+  margin-left: 8rem;
+  font-size:7rem;
+  width:35%;
+  margin-top:20rem;
+  color:white;
+}
+
+.scrollText{
+  margin-left:8rem;
+  font-family: 'Tangerine', cursive;
+  font-size:5rem;
+  font-weight:700;
+  color:#e7bc0e; 
+  letter-spacing:-0.05em;
+  margin-top:5rem;
+  margin-bottom:42rem;
+}
+
+.intro.turkis{
+  width:75%;
+  font-size:4rem;
+  line-height:7rem;                            
+  margin-left:20rem;
+}
+
+span{
+  background-color: black;
+  color:white;
+  padding:0.6rem 1rem 0.4rem;
+}
+
+.marginLeft{
+  margin-left:10rem;
+}
+
+.iconSize{
+  height: 15rem;
+  margin-bottom: 4.5rem;
+}
+
+.blau h2{
+  font-size:3em;
+  margin-left: 35rem;
+  line-height:6rem;       
+  width:55%;                     
+  margin-bottom:4rem;
+}
+
+#bild{
+  width:100vw;
+}
+
+section#untenSchwarz{ 
+  background-color: black;
+  width:100vw;
+}
+
+#untenSchwarz h2{
+  color: white;
+  font-size:10rem;
+  margin-left:15rem;
+  padding-top: 40rem;
+  margin-bottom:8rem;
+  width:70%;
+}
+
+#untenSchwarz a{
+  margin-left:15rem;
+  color: white;
+  font-size:3rem;
+  text-decoration: none;
+  border:2px solid white;
+  padding:1.5rem 3.5rem;
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+
+#untenSchwarz a:hover{
+  box-shadow:7px 7px 1px white;
+}
+
+/* -------------------FOOTER---------------------- */
+footer{
+  background-color: black;
+  margin:0 auto;
+}
+
+footer p{
+  display:inline-block;
+  font-size:1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color:white;
+  margin:20rem 0 2rem 0;
+  width:100%;
+}
+
+footer p a{
+  color:#6bc1a3;
+  text-decoration: none;
+  width:100vw;
+}
